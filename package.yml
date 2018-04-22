@@ -1,16 +1,16 @@
 name       : gnome-sound-recorder
-version    : 3.24.0
-release    : 3
+version    : 3.28.1
+release    : 4
 source     :
-    - https://download.gnome.org/sources/gnome-sound-recorder/3.24/gnome-sound-recorder-3.24.0.tar.xz : f5d06c4d1eb7e41024c71e9bfafcca3d7f96ce5c3eab56caa4845a40432c8954
-license    : GPL-2.0
+    - https://download.gnome.org/sources/gnome-sound-recorder/3.28/gnome-sound-recorder-3.28.1.tar.xz : 1e4b67c6fae4ca084ab432a50818d39a3d5a430eb2995b86523ce40d83cc1a78
+license    : GPL-2.0-only
 component  : multimedia.audio
 summary    : Sound recorder from GNOME
 description: |
     Sound recorder from GNOME
 builddeps  :
     - pkgconfig(gjs-1.0)
-    - pkgconfig(gstreamer-bad-base-1.0)
+    - pkgconfig(gstreamer-plugins-bad-1.0)
     - pkgconfig(gstreamer-plugins-base-1.0)
     - pkgconfig(gtk+-3.0)
     - gnome-common
