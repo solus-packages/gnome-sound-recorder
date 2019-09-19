@@ -22,9 +22,6 @@
             <Path fileType="executable">/usr/bin/gnome-sound-recorder</Path>
             <Path fileType="data">/usr/share/applications/org.gnome.SoundRecorder.desktop</Path>
             <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.SoundRecorder.gschema.xml</Path>
-            <Path fileType="data">/usr/share/gnome-sound-recorder/application.css</Path>
-            <Path fileType="data">/usr/share/gnome-sound-recorder/org.gnome.SoundRecorder</Path>
-            <Path fileType="data">/usr/share/gnome-sound-recorder/org.gnome.SoundRecorder.src.gresource</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/org.gnome.SoundRecorder.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/symbolic/apps/org.gnome.SoundRecorder-symbolic.svg</Path>
             <Path fileType="localedata">/usr/share/locale/af/LC_MESSAGES/gnome-sound-recorder.mo</Path>
@@ -52,12 +49,14 @@
             <Path fileType="localedata">/usr/share/locale/hr/LC_MESSAGES/gnome-sound-recorder.mo</Path>
             <Path fileType="localedata">/usr/share/locale/hu/LC_MESSAGES/gnome-sound-recorder.mo</Path>
             <Path fileType="localedata">/usr/share/locale/id/LC_MESSAGES/gnome-sound-recorder.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/is/LC_MESSAGES/gnome-sound-recorder.mo</Path>
             <Path fileType="localedata">/usr/share/locale/it/LC_MESSAGES/gnome-sound-recorder.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ja/LC_MESSAGES/gnome-sound-recorder.mo</Path>
             <Path fileType="localedata">/usr/share/locale/kk/LC_MESSAGES/gnome-sound-recorder.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ko/LC_MESSAGES/gnome-sound-recorder.mo</Path>
             <Path fileType="localedata">/usr/share/locale/lt/LC_MESSAGES/gnome-sound-recorder.mo</Path>
             <Path fileType="localedata">/usr/share/locale/lv/LC_MESSAGES/gnome-sound-recorder.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/mjw/LC_MESSAGES/gnome-sound-recorder.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ml/LC_MESSAGES/gnome-sound-recorder.mo</Path>
             <Path fileType="localedata">/usr/share/locale/nb/LC_MESSAGES/gnome-sound-recorder.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ne/LC_MESSAGES/gnome-sound-recorder.mo</Path>
@@ -83,12 +82,15 @@
             <Path fileType="localedata">/usr/share/locale/zh_HK/LC_MESSAGES/gnome-sound-recorder.mo</Path>
             <Path fileType="localedata">/usr/share/locale/zh_TW/LC_MESSAGES/gnome-sound-recorder.mo</Path>
             <Path fileType="data">/usr/share/metainfo/org.gnome.SoundRecorder.appdata.xml</Path>
+            <Path fileType="data">/usr/share/org.gnome.SoundRecorder/org.gnome.SoundRecorder</Path>
+            <Path fileType="data">/usr/share/org.gnome.SoundRecorder/org.gnome.SoundRecorder.data.gresource</Path>
+            <Path fileType="data">/usr/share/org.gnome.SoundRecorder/org.gnome.SoundRecorder.src.gresource</Path>
         </Files>
     </Package>
     <History>
-        <Update release="6">
-            <Date>2019-06-07</Date>
-            <Version>3.32.1</Version>
+        <Update release="7">
+            <Date>2019-09-19</Date>
+            <Version>3.34.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
