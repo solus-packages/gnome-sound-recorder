@@ -1,6 +1,6 @@
 name       : gnome-sound-recorder
 version    : 3.34.0
-release    : 7
+release    : 8
 source     :
     - https://download.gnome.org/sources/gnome-sound-recorder/3.34/gnome-sound-recorder-3.34.0.tar.xz : 49f1d6e0c06ac3bacc6084b2f5a63c8b91c5a20c3fc824532b7736a1151684c4
 license    : GPL-2.0-only
